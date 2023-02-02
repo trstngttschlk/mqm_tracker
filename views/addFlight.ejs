@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+<body>
+   <%- include("./partials/nav.ejs") %>
+   <h1>Add Flight</h1>
+   <div>
+      <label for="date">Date:</label>
+      <input type="date" name="date" id="datePicker">
+
+      <label for="from">From:</label>
+      <input type="text" name="from" placeholder="JFK, LAX, MSP">
+
+      <label for="to">To:</label>
+      <input type="text" name="to" placeholder="JFK, LAX, MSP">
+
+      <label for="flight_number">Flight Number:</label>
+      <input type="text" name="flight_number" placeholder="ex. DL 1234">
+
+      <label for="mqm">MQMs</label>
+      <input type="number" name="mqm">
+   </div>
+</body>
+</html>
