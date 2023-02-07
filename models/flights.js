@@ -1,4 +1,4 @@
-import mongoose from 'mongoose'
+const mongoose = require("mongoose")
 const Schema = mongoose.Schema;
 
 const flightSchema = new Schema({
@@ -15,7 +15,7 @@ const flightSchema = new Schema({
       type: String,
       required: true,
    },
-   flightNumber: {
+   flight_number: {
       type: String,
       required: true,
    },

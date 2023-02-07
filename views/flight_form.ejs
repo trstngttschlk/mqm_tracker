@@ -6,9 +6,9 @@
    <div class="content">
       <div class="add-flight">
          <h2>Add Flight</h2>
-            <form action="">
+            <form method="POST" action="">
                <label for="date">Date:</label>
-               <input type="date" name="date" id="datePicker">
+               <input type="date" name="date" id="datePicker" placeholder="dd/mm/yyy" >
 
                <label for="from">From:</label>
                <input type="text" name="from" placeholder="JFK, LAX, MSP, etc.">
@@ -20,9 +20,9 @@
                <input type="text" name="flight_number" placeholder="ex. DL 1234">
 
                <label for="mqm">MQMs:</label>
-               <input type="number" name="mqm">
+               <input type="number" name="mqms">
 
-               <button>Add Flight</button>
+               <button type="submit">Add Flight</button>
             </form>
       </div>
    </div>
